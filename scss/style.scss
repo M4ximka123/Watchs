@@ -1,0 +1,133 @@
+html{
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before{
+    box-sizing: inherit;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+body{
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    color: #161515;
+}
+
+.container{
+    max-width: 1152px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header{
+    background-color: #F8F8F8;
+    background-image: url('../images/header/watch.png');
+    background-repeat: no-repeat;
+    background-position: 75% 3%;
+    object-fit: cover;
+    &__descr{
+        padding-top: 104px;
+        margin-bottom: 53px;
+        font-size: 24px;
+        font-weight: 300;
+    }
+    &__title{
+        font-weight: 300;
+        font-size: 250px;
+        color: #272727;
+    }
+    &__text{
+        font-weight: 300;
+        font-size: 32px;
+        max-width: 575px;
+        margin-bottom: 61px;
+        line-height: 155%;
+    }
+
+    &__link{
+        background-color:#161515;
+        color:#fff;
+        font-weight: 300;
+        font-size: 32px;
+        padding: 26px 74px 35px 73px;   
+        margin-bottom: 168px;
+        display: inline-block;
+    }
+    
+    &__price{
+        display: inline-block;
+        background-color: #fff;
+        padding: 26px 27px 35px 28px; 
+        color: #272727;
+        font-weight: 300;
+        margin-left: -8px;
+    }
+}
+
+.model{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    &__text{
+        padding-top: 43px;
+        font-weight: 300;
+        font-size: 24px;
+        text-align: center;
+    }
+    &__title{
+        text-align: center;
+        font-size: 72px;
+        margin-bottom: 84px;
+    }
+    &__images{
+        max-width: 500px;
+        margin-bottom: 67px;
+    }
+    a{
+        text-align: center;
+        padding-top: 17px;
+    }
+    &__descr{
+        text-align: center;
+        max-width: 525px;
+        line-height: 155%;
+        font-weight: 300;
+        margin-bottom: 85px;
+    }
+}
+
+.footer{
+    h2{
+        text-align: center; 
+        padding-top: 9px;
+        span{
+            border-bottom: 1px solid #707070;
+            width: 178px;
+            display: block;
+            margin: 0 auto;
+        }
+    }
+    p{
+        padding-top: 49px;
+        padding-bottom: 142px;
+        text-align: center;
+        font-size: 24px;
+        font-weight: 300;
+        max-width: 515px;
+        line-height: 170%;
+        text-align: center;
+        margin: 0 auto;
+        a{
+            color: #BB8B5D;
+            font-weight: 300;
+            text-decoration: underline;
+        }
+    }
+}
